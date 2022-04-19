@@ -1,0 +1,143 @@
+html, body {
+   position: absolute;
+    width: 1253px;
+    height: 678px;
+    background: #1C1C1C;
+    font-family: 'Karla', sans-serif;
+}
+
+
+.generator-container {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 321px;
+    top: 64px;
+    background: #ECFDF5;
+}
+
+
+h1 {
+    position: absolute;
+    width: 332px;
+    height: 80px;
+    left: 52px;
+    top: 110px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    letter-spacing: -0.05em;
+    /* night */
+    color: #2B283A;
+}
+
+#header-green {
+    color: #10B981;
+}
+
+p {
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 200px;
+    /* text-xl/leading-7/font-normal */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    color: #6B7280;
+}
+
+.btn-container {
+     /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 52px;
+    top: 279px;
+}
+
+button {
+    width: 200px;
+    height: 42px;
+    margin: auto 15px;
+    background: #10B981;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.btn-text {
+    position: static;
+    width: 159px;
+    height: 24px;
+    left: 47px;
+    top: 9px;
+    /* text-base/leading-6/font-medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+}
+
+hr {
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 356px;
+    border: 1px solid #D5D4D8;
+}
+
+.password-box {
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    color: #5DEF92;
+    text-align: center;
+}
+
+#password1 {
+    left: 52px;
+    top: 391px;
+}
+
+#password2 {
+    left: 287px;
+    top: 391px;
+}
+
+
+#password3 {
+    left: 52px;
+    top: 457px;
+}
+
+
+#password4 {
+    left: 287px;
+    top: 457px;
+}
+
+#passwords-btn:disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
